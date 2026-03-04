@@ -1,127 +1,64 @@
-# 📊 Data Analytics Project
-Overview
+# 👨🏻‍💻Customer Behavior Data Analyst Portfolio Project
+This project represents a complete, industry standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
 
-This project demonstrates an end-to-end data analytics workflow, starting from raw data processing to generating insights and visualizing them in a dashboard.
-The project includes data loading using Python, Exploratory Data Analysis (EDA), data cleaning, SQL analysis, and interactive visualization using Power BI.
+This project is perfect for:
+- 📊 Data Analyst aspirants who want to build a strong **Portfolio Project** for interviews and LinkedIn
+- 📚 Anyone learning Python, SQL, and Power BI
+- 💼 Professionals preparing for interviews in Data Analytics, Data Science or Product Analytics roles
 
-The objective of this project is to analyze the dataset, extract meaningful insights, and present them through a dashboard and report for better decision-making.
 
-# Dataset
+## 📌 Project Overview
+The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
 
-The dataset used in this project contains structured data related to business/transactions/customers (depending on the dataset used).
+✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
 
-Key features of the dataset include:
+✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
 
-1.Multiple attributes representing business operations
-2.Numerical and categorical variables
-3.Missing values and data inconsistencies requiring cleaning
-4.Suitable for SQL querying and data visualization
-5.Dataset Source: Add dataset source or Kaggle link if applicable.
+✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
 
-# Tools & Technologies
+✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
 
-The following tools and technologies were used in this project:
 
-• Python
-• Pandas
-• NumPy
-• Matplotlib / Seaborn
-• Jupyter Notebook
-• SQL Databases
-• PostgreSQL
-• Visualization
-• Power BI
-• Presentation
-• Gamma (for generating presentation slides)
+## 🛠️ How to Use This Project
 
-# Other Tools
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
+   cd customer-trends-data-analysis-SQL-Python-PowerBI
+   ```
+2. **Open Customer_Shopping_Behavior_Analysis.ipynb notebook**
 
-• Excel (optional preprocessing)
-• GitHub (project hosting)
+    This file contains:
 
-# Project Workflow / Steps
+      - Data Import
 
-1️⃣ Data Loading
+      - Data exploration
 
-• Imported the dataset using Python (Pandas).
-•Checked dataset structure, columns, and data types.
+      - Data cleaning
 
-2️⃣ Exploratory Data Analysis (EDA)
-
-• Analyzed dataset statistics.
-• Identified patterns, trends, and relationships.
-• Visualized distributions and correlations using charts.
-
-3️⃣ Data Cleaning
-
-• Handled missing values.
-• Removed duplicates.
-• Corrected inconsistent data types.
-• Prepared the dataset for analysis.
-
-4️⃣ SQL Analysis
-
-Loaded the cleaned dataset into databases and performed queries using:
-
-• PostgreSQL
-• MySQL
-• SQL Server
-
-Performed queries such as:
-
--Aggregations (SUM, AVG, COUNT)
--Filtering and grouping
--Subqueries and joins
--Business insight queries
-
-Results & Insights
-
-• Key insights derived from the analysis include:
-• Identification of important patterns in the dataset
-• Key metrics and trends affecting performance
-• Data-driven insights useful for decision-making
-
-These insights were summarized in:
-
-- Power BI Dashboard
-- Analytical Report
-- Presentation Slides (created using Gamma)
-
-# How to Run the Project
-
-1️⃣ Clone the Repository
-
-  git clone https://github.com/yourusername/project-name.git
+      - Connection to SQL Database
   
-2️⃣ Install Required Libraries
+3. **Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server**
 
-  pip install pandas numpy matplotlib seaborn
+      - Create a database in SQL
+
+      - Run Python code to load data into SQL database
   
-3️⃣ Run the Python Notebook
+      - Open **customer_behavior_sql_queries.sql**
+  
+      - Answer Business Questions using SQL Queries 
+      
+4. **Connect the SQL Database to Power BI**
 
-Open the notebook in Jupyter Notebook and run the cells step by step.
+      - Open **customer_behavior_dashboard.pbix**
+   
+      - Create interactive dashboard in Power BI
+  
+6. **Create Project Report and Presentation**
 
-4️⃣ Execute SQL Queries
-
-Import the cleaned dataset into:
-
-PostgreSQL / MySQL / SQL Server
-
-Run the SQL scripts provided in the repository.
-
-5️⃣ View the Dashboard
-
-Open the Power BI (.pbix) file to explore the dashboard.
-
-Future Improvements
-
-Possible enhancements for this project:
-
-Automating the data pipeline
-
-Deploying dashboards online
-
-Adding advanced analytics or machine learning models
+      - Create project report
+   
+      - Build presentation deck using Gamma AI
 
 # Author
 
